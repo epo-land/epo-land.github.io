@@ -1,0 +1,61 @@
+<html>
+
+<head>
+<title>About us-Eric</title>
+<link rel=stylesheet href="epostyle.css" type="text/css">
+</head>
+
+<body background="border.gif">
+<div>
+<div id="left" align="left">
+
+<table align="center">
+<tr>
+<td><H1>About us</H1></td>
+</tr>
+<tr>
+<td>
+<p align="center">
+<select name="D1" size="1"
+    onchange="location.href=value">
+        <option selected value="eric.shtml"><b>Eric</b></option>
+        <option value="penny.shtml">Penny</option>
+        <option value="ollie.shtml">Ollie</option>
+    </select>
+</p>
+</td>
+</tr>
+<tr><td>
+<p align="left"><B>Name:</B> Eric</p>
+
+<p align="left"><B>Age:</B> 10</p>
+
+<p align="left"><B>Favourite food:</B> Pizza, Seafood, and Fish pie</p>
+
+<p align="left"><B>Least favourite food:</B> Brussel sprouts, mousakka, and lasagna</p>
+
+<p align="left"><B>Dislikes:</B> Writing stories, Horses, and Football</p>
+
+<p align="left"><B>Likes:</B>Doing Origami, Art &amp; Craft, and Swimming</p>
+
+<p align="left"><B>Ambition:</B> To be an Engineer</p>
+
+<p align="left"><B>Favourite ride at E.P.O Land:</B> Quantum, because <br>the improvements I made to it made it a lot better.
+</td></tr>
+</table>
+<p align="center"><button name="B1" onclick="location.href='index.shtml';">Back</button></p>
+</div>
+
+<div id="menu">
+<br><br><br><p align=right>
+<a href="index.shtml" class="nav"><img valign=center src="greypiece.gif" class="nav" width="40" height="44">Who we are</a>
+<a href="mapswitcher.shtml" class="nav"><img src="greenpiece.gif" class="nav" width="46" height="32" >Map</a>
+<a href="knexholsintro.shtml" class="nav"><img src="dgreypiece.gif" class="nav" width="40" height="44">K'nexman<br>holiday's</a>
+<a href="opening.shtml" class="nav" ><img src="yellowpiece.gif" class="nav" width="46" height="32">Opening Times</a>
+<a href="eric.shtml" class="nav" ><img src="redpiece.gif" class="nav" width="40" height="31">About us</a>
+</p>
+</div>
+
+</div>
+</body>
+</html>

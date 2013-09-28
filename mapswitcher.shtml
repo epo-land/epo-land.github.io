@@ -1,0 +1,22 @@
+<HTML>
+<HEAD>
+<title>E.P.O Land -- wait while we examine your system</title>
+</HEAD>
+<body>
+<SCRIPT LANGUAGE="JavaScript">
+            <!-- Begin
+            var url640x480 = "map640.shtml"
+            var url800x600 = "map800.shtml"
+            var url1024x768 = "map1024.shtml"
+            if ((screen.width == 640) && (screen.height == 480))
+            window.location.href= url640x480;
+            else if ((screen.width == 800) && (screen.height == 600))
+            window.location.href= url800x600;
+            else if ((screen.width == 1024) && (screen.height == 768))
+            window.location.href= url1024x768;
+	    else window.location.href=url1024x768;
+            // End -->
+            </SCRIPT>
+
+</body>
+</html>

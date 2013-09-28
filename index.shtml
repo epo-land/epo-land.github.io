@@ -1,0 +1,42 @@
+<html>
+
+<head>
+<title>E.P.O Land</title>
+<link rel=stylesheet href="epostyle.css" type="text/css">
+</head>
+
+<body background="border.GIF">
+
+<div>
+<div id="left" align="left">
+<table size="100%" border="0">
+    <tr>
+        <td colspan="3"><p align="center"><img alt="Midnight Carousel" src="scarousl.gif"
+        align="middle" width="25%"><img alt="EpoLand!"
+        src="word_art.gif" align="middle" width="40%">
+        <img alt="Looper" src="smloop.gif" align="middle" width="25%"></p>
+        </td>
+    </tr>
+    <tr>
+    <td align="justify">
+    <p>
+    With its looping rollercoaster for thrill-seekers, and carousel for younger guests,<p> E.P.O Land&reg; has fun for all of the family. It also has a snackbar for the odd few starving guests.
+    </p>
+    </td>
+    </tr>
+</table>
+</div>
+
+<div id="menu">
+<br><br><br><p align=right>
+<a href="index.shtml" class="nav"><img valign=center src="greypiece.gif" class="nav" width="40" height="44">Who we are</a>
+<a href="mapswitcher.shtml" class="nav"><img src="greenpiece.gif" class="nav" width="46" height="32" >Map</a>
+<a href="knexholsintro.shtml" class="nav"><img src="dgreypiece.gif" class="nav" width="40" height="44">K'nexman<br>holiday's</a>
+<a href="opening.shtml" class="nav" ><img src="yellowpiece.gif" class="nav" width="46" height="32">Opening Times</a>
+<a href="eric.shtml" class="nav" ><img src="redpiece.gif" class="nav" width="40" height="31">About us</a>
+</p>
+</div>
+
+</div>
+</body>
+</html>

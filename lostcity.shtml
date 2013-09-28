@@ -1,0 +1,26 @@
+<html>
+
+<head>
+<title>Lost City Snacks</title>
+<link rel=stylesheet href="epostyle.css" type="text/css">
+</head>
+
+<body background="border.gif">
+<div>
+<div id="left" align="left">
+
+<H1>Lost City Snacks</H1>
+
+<p align="center"><strong>Lost City Snacks is a relatively new
+addition to E.P.O Land, but has become extremely popular in the
+short amount of time since it was built. It sells a selection of
+foods, and it overlooks the Play Area so that adults can eat
+while their children play.</strong></p>
+
+<p align="center"><strong><img src="lostci1.jpg" width="172"
+height="172"><br>
+</strong><font size="1"><strong>picture of Lost city snacks</strong></font></p>
+
+<p align="center"><button name="B1" onclick="location.href='mapswitcher.shtml';">Back to Map</button></p>
+</body>
+</html>

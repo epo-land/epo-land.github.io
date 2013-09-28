@@ -1,0 +1,34 @@
+<shtmll>
+
+<head>
+<title>Map of E.P.O Land</title>
+<link rel=stylesheet href="epostyle.css" type="text/css">
+<style>
+body
+{
+ font-size: x-small;
+}
+</style>
+</head>
+
+<body background="inherit">
+
+<p align="center"><map name="parkmap">
+<area shape = "rect" coords = "379,275,426,311" href = "lostcity.shtml" alt="Lost City Snacks">
+<area shape = "rect" coords = "431,414,574,496" href = "kayak.shtml" alt="Kayak Rental">
+<area shape ="circle" coords = "282, 251,  35, 35" href = "star.shtml" alt="Star Spinner">
+<area shape = "rect" coords = "495,248,571,310" href = "watersid.shtml" alt="Waterside Whirler">
+<area shape = "rect" coords = "147,17,241,89" href = "mini.shtml" alt="Mini Day &amp; Night Swingboats">
+<area shape = "rect" coords = "41,156,443,323" href = "looper.shtml" alt="Looper">
+<area shape = "rect" coords = "473,310,530,371" href = "quantum.shtml" alt="Quantum">
+<area shape = "rect" coords = "33,6,106,52" href = "midnight.shtml" alt="Midnight Carousel">
+</map>
+<img src="map800.jpg" border="0" usemap="#parkmap">
+</p>
+
+<p align="center"><strong>Click on rides to view
+descriptions.<br>
+</strong>
+<p align="center"><button name="B1" onclick="location.href='index.shtml';">Back</button></p>
+</body>
+</shtmll>

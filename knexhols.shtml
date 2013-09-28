@@ -1,0 +1,114 @@
+<html>
+
+<head>
+<title>K'nexman Holiday Form</title>
+<link rel=stylesheet href="epostyle.css" type="text/css">
+</head>
+
+<body background="border.gif">
+<div>
+<div id="left" align="left">
+
+<h1><strong>K'nexman Holiday Form</strong></h1>
+
+<hr width="100%">
+
+
+<form action="mailto:nobody@nowhere.com?subject=knexman_holiday" enctype="text/plain" method="POST">
+   <blockquote>
+        <table border="0">
+            <tr>
+                <td align="right"><p align="center"><em><strong>First
+                name</strong></em></p>
+                </td>
+                <td><strong><input type="text" size="25"
+                name="FirstName"> </strong></td>
+            </tr>
+            <tr>
+                <td align="right"><p align="center"><em><strong>Last
+                name</strong></em></p>
+                </td>
+                <td><strong><input type="text" size="25"
+                name="LastName"> </strong></td>
+            </tr>
+            <tr>
+                <td align="right"><p align="right"><em><strong>Age</strong></em></p>
+                </td>
+                <td><strong><input type="text" size="3"
+                maxlength="3" name="Age"> </strong></td>
+            </tr>
+            <tr>
+                <td align="right"><em><strong>E-mail</strong></em></td>
+                <td><strong><input type="text" size="16"
+                maxlength="16" name="E-mail address"> </strong></td>
+            </tr>
+        </table>
+    </blockquote>
+    <p><strong>Colour of K'nexman:</strong></p>
+    <blockquote>
+        <p><strong><select name="colour of k'nexman" size="1" >
+        <optgroup label="Normal Size">
+        <option>Red</option>
+        <option>Blue</option>
+        <option>Green</option>
+        <option>Cyan</option>
+        <option>Silver</option>
+        <option>Gold</option>
+        </optgroup>
+        <optgroup label="Small Size" name="Small Size">
+        <option>Red Headgear</option>
+        <option>Blue Headgear</option>
+        <option>Green Headgear</option>
+        <option>No Headgear</option>
+        </optgroup>
+        </select><br>
+        </strong></p>
+    </blockquote>
+    <p><b>Gender</b></p>
+    <blockquote>
+        <p><input type="radio" name="Gender" value="Male">Male <input
+        type="radio" name="Gender" value="Female"> Female <input
+        type="radio" name="Gender" value="Prefer not to say">
+        Prefer not to say </p>
+    </blockquote>
+    <p><b>Or, if you are part of the club, enter your password
+    and username:</b></p>
+    <blockquote>
+        <table border="0">
+            <tr>
+                <td align="right"><em><strong>User name</strong></em></td>
+                <td><strong><input type="text" size="16"
+                maxlength="16" name="pass_Username"> </strong></td>
+            </tr>
+            <tr>
+                <td align="right"><em><strong>Password</strong></em></td>
+                <td><strong><input type="password" size="16"
+                maxlength="16" name="pass_Password"> </strong></td>
+            </tr>
+            <tr>
+                <td align="right"><em><strong>Confirm password</strong></em></td>
+                <td><strong><input type="password" size="16"
+                maxlength="16" name="pass_PasswordConfirm"> </strong></td>
+            </tr>
+        </table>
+    </blockquote>
+    <p><strong><input type="submit" value="Send it!"> <input
+    type="reset" value="Do it over!"> </strong></p>
+</form>
+
+<hr width="100%">
+</div>
+
+<div id="menu">
+<br><br><br><p align=right>
+<a href="index.shtml" class="nav"><img valign=center src="greypiece.gif" class="nav" width="40" height="44">Who we are</a>
+<a href="mapswitcher.shtml" class="nav"><img src="greenpiece.gif" class="nav" width="46" height="32" >Map</a>
+<a href="knexholsintro.shtml" class="nav"><img src="dgreypiece.gif" class="nav" width="40" height="44">K'nexman<br>holiday's</a>
+<a href="opening.shtml" class="nav" ><img src="yellowpiece.gif" class="nav" width="46" height="32">Opening Times</a>
+<a href="eric.shtml" class="nav" ><img src="redpiece.gif" class="nav" width="40" height="31">About us</a>
+</p>
+</div>
+
+</div>
+</body>
+</html>

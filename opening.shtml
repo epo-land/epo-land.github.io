@@ -1,0 +1,638 @@
+<html>
+
+<head>
+<title>Opening & Closing times</title>
+<link rel=stylesheet href="epostyle.css" type="text/css">
+<script language="JavaScript">
+<!--//BEGIN Script
+
+function new_window(url) {
+
+link=
+window.open(url,"Link","toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=0,resizable=0,width=200,height=110,left=25%,top=50%");
+
+}
+//END Script-->
+</script>
+<style>
+
+a
+{
+ text-decoration:none;
+}
+td
+{
+ text-align:center;
+}
+td.peak
+{
+background-color: blue;
+}
+tr.closed
+{
+background-color: green;
+}
+td.offpeak
+{
+background-color:yellow;
+}
+td.summer
+{
+background-color:orange;
+}
+tr.summer
+{
+background-color:orange;
+}
+td.late
+{
+background-color:red;
+}
+</style>
+
+</head>
+<div>
+<div id="left" align="left">
+<body background="border.gif">
+
+<table border="0" cellpadding="5" align="center">
+	<tr>
+	<td colspan="3"><h1>Opening &amp; Closing times</td>
+	</tr>
+	<tr>
+	<td valign="top">
+	<table>
+		<tr>
+		<td colspan="7" align="center"><b>MARCH</b>
+		</tr>
+		<tr>
+		<td>M</td>
+		<td>T</td>
+		<td>W</td>
+		<td>T</td>		
+		<td onclick="javascript:new_window('nightride.shtml')">F</td>
+		<td>S</td>
+		<td>S</td>
+		</tr>
+		<tr class="closed">
+		<td>1</td>
+		<td>2</td>
+		<td>3</td>
+		<td>4</td>
+		<td>5</td>
+		<td>6</td>
+		<td>7</td>
+		</tr>
+		<tr class="closed">
+		<td>8</td>
+		<td>9</td>
+		<td>10</td>
+		<td>11</td>
+		<td>12</td>
+		<td>13</td>
+		<td>14</td>
+		</tr>
+		<tr class="closed">
+		<td>15</td>
+		<td>16</td>
+		<td>17</td>
+		<td>18</td>
+		<td>19</td>
+		<td>20</td>
+		<td>21</td>
+		</tr>
+		<tr class="closed">
+		<td>22</td>
+		<td>23</td>
+		<td>24</td>
+		<td>25</td>
+		<td>26</td>
+		<td class="offpeak">27</td>
+		<td class="offpeak">28</td>
+		</tr>
+		<tr>
+		<td class="offpeak">29</td>
+		<td class="offpeak">30</td>
+		<td class="offpeak">31</td>
+		</tr>
+	</table>
+	</td>
+	<td valign="top">
+	<table>
+		<tr>
+		<td colspan="7" align="center"><b>APRIL</b>
+		</tr>
+		<tr>
+		<td>M</td>
+		<td>T</td>
+		<td>W</td>
+		<td>T</td>		
+		<td onclick="javascript:new_window('nightride.shtml')">F</td>
+		<td>S</td>
+		<td>S</td>
+            </tr>
+		<tr>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td class="offpeak">1</td>
+		<td class="offpeak">2</td>
+		<td class="offpeak">3</td>
+		<td class="offpeak">4</td>
+            </tr>
+		<tr>
+		<td class="offpeak">5</td>
+		<td class="offpeak">6</td>
+		<td class="offpeak">7</td>
+		<td class="offpeak">8</td>
+		<td class="offpeak">9</td>
+		<td class="peak">10</td>
+		<td class="peak">11</td>
+            </tr>
+		<tr>
+		<td class="peak">12</td>
+		<td class="peak">13</td>
+		<td class="peak">14</td>
+		<td class="peak">15</td>
+		<td class="peak">16</td>
+		<td class="peak">17</td>
+		<td class="peak">18</td>
+		</tr>
+		<tr>
+		<td class="peak">19</td>
+		<td class="peak">20</td>
+		<td class="peak">21</td>
+		<td class="peak">22</td>
+		<td class="peak">23</td>
+		<td class="peak">24</td>
+		<td class="peak">25</td>
+		</tr>
+		<tr>
+		<td class="offpeak">26</td>
+		<td class="offpeak">27</td>
+		<td class="offpeak">28</td>
+		<td class="offpeak">29</td>
+		<td class="offpeak">30</td>
+		</tr>
+	</table>
+	</td>
+	<td valign="top">
+	<table>
+		<tr>
+		<td colspan="7" align="center"><strong>MAY</strong>
+		</tr>
+		<tr>
+		<td>M</td>
+		<td>T</td>
+		<td>W</td>
+		<td>T</td>
+		<td onclick="javascript:new_window('nightride.shtml')">F</td>
+		<td>S</td>
+		<td>S</td>
+            </tr>
+		<tr>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td class="offpeak">1</td>
+		<td class="offpeak">2</td>
+            </tr>
+		<tr>
+		<td class="offpeak">3</td>
+		<td class="offpeak">4</td>
+		<td class="offpeak">5</td>
+		<td class="offpeak">6</td>
+		<td class="offpeak">7</td>
+		<td class="offpeak">8</td>
+		<td class="offpeak">9</td>
+            </tr>
+		<tr>
+		<td class="offpeak">10</td>
+		<td class="offpeak">11</td>
+		<td class="offpeak">12</td>
+		<td class="offpeak">13</td>
+		<td class="offpeak">14</td>
+		<td class="offpeak">15</td>
+		<td class="offpeak">16</td>
+		</tr>
+		<tr>
+		<td class="offpeak">17</td>
+		<td class="offpeak">18</td>
+		<td class="offpeak">19</td>
+		<td class="offpeak">20</td>
+		<td class="offpeak">21</td>
+		<td class="offpeak">22</td>
+		<td class="offpeak">23</td>
+		</tr>
+		<tr>
+		<td class="peak">24</td>
+		<td class="peak">25</td>
+		<td class="peak">26</td>
+		<td class="peak">27</td>
+		<td class="peak">28</td>
+		<td class="peak">29</td>
+		<td class="peak">30</td>
+		</tr>
+		<tr>
+		<td class="offpeak">31</td>
+		</tr>
+		</table>
+	</td>
+	</tr>
+	<tr>
+	<td valign="top">
+	<table>
+		<tr>
+		<td colspan="7"><p align="center"><strong>JUNE</strong></p>
+		</tr>
+		<tr>
+		<td>M</td>
+		<td>T</td>
+		<td>W</td>
+		<td>T</td>		
+		<td onclick="javascript:new_window('nightride.shtml')">F</td>
+		<td>S</td>
+		<td>S</td>
+            </tr>
+		<tr>
+		<td></td>
+		<td class="offpeak">1</td>
+		<td class="offpeak">2</td>
+		<td class="offpeak">3</td>
+		<td class="offpeak">4</td>
+		<td class="offpeak">5</td>
+		<td class="offpeak">6</td>
+            </tr>
+		<tr>
+		<td class="offpeak">7</td>
+		<td class="offpeak">8</td>
+		<td class="offpeak">9</td>
+		<td class="offpeak">10</td>
+		<td class="offpeak">11</td>
+		<td class="offpeak">12</td>
+		<td class="offpeak">13</td>
+            </tr>
+		<tr>
+		<td class="offpeak">14</td>
+		<td class="offpeak">15</td>
+		<td class="offpeak">16</td>
+		<td class="offpeak">17</td>
+		<td class="offpeak">18</td>
+		<td class="offpeak">19</td>
+		<td class="offpeak">20</td>
+		</tr>
+		<tr>
+		<td class="offpeak">21</td>
+		<td class="offpeak">22</td>
+		<td class="offpeak">23</td>
+		<td class="offpeak">24</td>
+		<td class="offpeak">25</td>
+		<td class="offpeak">26</td>
+		<td class="offpeak">27</td>
+		</tr>
+		<tr>
+		<td class="offpeak">28</td>
+		<td class="late">29</td>
+		<td class="late">30</td>
+		</tr>
+		</table>
+	</td>
+	<td valign="top">
+	<table>
+		<tr>
+		<td colspan="7"><p align="center"><strong>JULY</strong></p>
+		</tr>
+		<tr>
+		<td>M</td>
+		<td>T</td>
+		<td>W</td>
+		<td>T</td>		
+		<td onclick="javascript:new_window('nightride.shtml')">F</td>
+		<td>S</td>
+		<td>S</td>
+            </tr>
+		<tr>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td class="late">1</td>
+		<td class="late">2</td>
+		<td class="late">3</td>
+		<td class="late">4</td>
+            </tr>
+		<tr>
+		<td class="late">5</td>
+		<td class="late">6</td>
+		<td class="late">7</td>
+		<td class="late">8</td>
+		<td class="late">9</td>
+		<td class="late">10</td>
+		<td class="late">11</td>
+            </tr>
+		<tr>
+		<td class="late">12</td>
+		<td class="late">13</td>
+		<td class="late">14</td>
+		<td class="late">15</td>
+		<td class="late">16</td>
+		<td class="summer">17</td>
+		<td class="summer">18</td>
+		</tr>
+		<tr>
+		<td class="summer">19</td>
+		<td class="summer">20</td>
+		<td class="summer">21</td>
+		<td class="summer">22</td>
+		<td class="summer">23</td>
+		<td class="summer">24</td>
+		<td class="summer">25</td>
+		</tr>
+		<tr>
+		<td class="summer">26</td>
+		<td class="summer">27</td>
+		<td class="summer">28</td>
+		<td class="summer">29</td>
+		<td class="summer">30</td>
+		<td class="summer">31</td>
+		</tr>
+	</table>
+	</td>
+	<td valign="top">
+	<table>
+		<tr>
+		<td colspan="7"><p align="center"><strong>AUGUST</strong></p>
+		</tr>
+		<tr>
+		<td>M</td>
+		<td>T</td>
+		<td>W</td>
+		<td>T</td>		
+		<td onclick="javascript:new_window('nightride.shtml')">F</td>
+		<td>S</td>
+		<td>S</td>
+            </tr>
+		<tr>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td class="summer">1</td>
+            </tr>
+		<tr class="summer">
+		<td>2</td>
+		<td>3</td>
+		<td>4</td>
+		<td>5</td>
+		<td>6</td>
+		<td>7</td>
+		<td>8</td>
+            </tr>
+		<tr class="summer">
+		<td>9</td>
+		<td>10</td>
+		<td>11</td>
+		<td>12</td>
+		<td>13</td>
+		<td>14</td>
+		<td>15</td>
+            </tr>
+		<tr class="summer">
+		<td>16</td>
+		<td>17</td>
+		<td>18</td>
+		<td>19</td>
+		<td>20</td>
+		<td>21</td>
+		<td>22</td>
+		</tr>
+		<tr class="summer">
+		<td>23</td>
+		<td>24</td>
+		<td>25</td>
+		<td>26</td>
+		<td>27</td>
+		<td>28</td>
+		<td>29</td>
+		</tr>
+		<tr class="summer">
+		<td>30</td>
+		<td>31</td>
+	</table>
+	</td>
+	</tr>
+	<tr>
+	<td valign="top">
+	<table>
+		<tr>
+		<td colspan="7"><p align="center"><strong>SEPTEMBER</strong></p>
+		</tr>
+		<tr>
+		<td>M</td>
+		<td>T</td>
+		<td>W</td>
+		<td>T</td>		
+		<td onclick="javascript:new_window('nightride.shtml')">F</td>
+		<td>S</td>
+		<td>S</td>
+            </tr>
+		<tr>
+		<td></td>
+		<td></td>
+		<td class="summer">1</td>
+		<td class="offpeak">2</td>
+		<td class="offpeak">3</td>
+		<td class="offpeak">4</td>
+		<td class="offpeak">5</td>
+		</tr>
+		<tr class="closed">
+		<td class="offpeak">6</td>
+		<td>7</td>
+		<td>8</td>
+		<td class="offpeak">9</td>
+		<td class="offpeak">10</td>
+		<td class="offpeak">11</td>
+		<td class="offpeak">12</td>
+		</tr>
+		<tr class="closed">
+		<td class="offpeak">13</td>
+		<td>14</td>
+		<td>15</td>
+		<td class="offpeak">16</td>
+		<td class="offpeak">17</td>
+		<td class="offpeak">18</td>
+		<td class="offpeak">19</td>
+		</tr>
+		<tr class="closed">
+		<td class="offpeak">20</td>
+		<td>21</td>
+		<td>22</td>
+		<td class="offpeak">23</td>
+		<td class="offpeak">24</td>
+		<td class="offpeak">25</td>
+		<td class="offpeak">26</td>
+		</tr>
+		<tr class="closed">
+		<td class="offpeak">27</td>
+		<td>28</td>
+		<td>29</td>
+		<td class="offpeak">30</td>
+		</tr>
+	</table>
+	</td valign="top">
+	<td>
+	<table>
+		<tr>
+		<td colspan="7"><p align="center"><strong>OCTOBER</strong></p>
+		</tr>
+		<tr>
+		<td>M</td>
+		<td>T</td>
+		<td>W</td>
+		<td>T</td>		
+		<td onclick="javascript:new_window('nightride.shtml')">F</td>
+		<td>S</td>
+		<td>S</td>
+            </tr>
+		<tr>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td class="offpeak">1</td>
+		<td class="offpeak">2</td>
+		<td class="offpeak">3</td>
+		</tr>
+		<tr class="closed">
+		<td class="offpeak">4</td>
+		<td>5</td>
+		<td>6</td>
+		<td class="offpeak">7</td>
+		<td class="offpeak">8</td>
+		<td class="offpeak">9</td>
+		<td class="offpeak">10</td>
+		</tr>
+		<tr class="closed">
+		<td class="offpeak">11</td>
+		<td>12</td>
+		<td>13</td>
+		<td class="offpeak">14</td>
+		<td class="offpeak">15</td>
+		<td class="peak">16</td>
+		<td class="peak">17</td>
+		</tr>
+		<tr class="closed">
+		<td class="peak">18</td>
+		<td class="peak">19</td>
+		<td class="peak">20</td>
+		<td class="peak">21</td>
+		<td class="peak">22</td>
+		<td class="peak">23</td>
+		<td class="peak">24</td>
+		</tr>
+		<tr>
+		<td class="peak">25</td>
+		<td class="peak">26</td>
+		<td class="peak">27</td>
+		<td class="peak">28</td>
+		<td class="peak">29</td>
+		<td class="peak">30</td>
+		<td class="peak" onclick="javascript:new_window('halloween.shtml')">31</td>
+		</tr>
+	</table>
+	</td>
+	<td valign="top">
+	<table>
+		<tr>
+		<td colspan="7"><p align="center"><strong>NOVEMBER</strong></p>
+		</tr>
+		<tr>
+		<td>M</td>
+		<td>T</td>
+		<td>W</td>
+		<td>T</td>		
+		<td>F</td>
+		<td>S</td>
+		<td>S</td>
+            </tr>
+		<tr class="closed">
+		<td>1</td>
+		<td>2</td>
+		<td>3</td>
+		<td>4</td>
+		<td>5</td>
+		<td>6</td>
+		<td>7</td>
+		</tr>
+		<tr class="closed">
+		<td>8</td>
+		<td>9</td>
+		<td>10</td>
+		<td>11</td>
+		<td>12</td>
+		<td>13</td>
+		<td>14</td>
+		</tr>
+		<tr class="closed">
+		<td>15</td>
+		<td>16</td>
+		<td>17</td>
+		<td>18</td>
+		<td>19</td>
+		<td>20</td>
+		<td>21</td>
+		</tr>
+		<tr class="closed">
+		<td>22</td>
+		<td>23</td>
+		<td>24</td>
+		<td>25</td>
+		<td>26</td>
+		<td>27</td>
+		<td>28</td>
+		</tr>
+		<tr class="closed">
+		<td>29</td>
+		<td>30</td>
+		</tr>
+	</table>
+	</td>
+	</tr>
+</table>
+<table border="0" align="center">
+    <tr class="closed">
+        <td align="center" colspan="2">CLOSED</td>
+    </tr>
+    <tr>
+        <td width="140" class="offpeak"><p
+        align="center">Off peak:<br> 10.00-17.00</p>
+        </td>
+        <td width="140"class="late" align="center">Off peak late:<br> 10.00-18.00
+        </td>
+    </tr>
+    <tr>
+        <td width="140"class="peak" align="center">Peak:<br> 10.00-18.00
+        </td>
+        <td width="140"class="summer" align="center">Summer peak:<br> 10.00-18.00
+        </td>
+    </tr>
+<tr><td colspan="2"><button onclick="location.href='index.shtml'">Back</button></td></tr>
+</table>
+</div>
+
+<div id="menu">
+<br><br><br><p align=right>
+<a href="index.shtml" class="nav"><img valign=center src="greypiece.gif" class="nav" width="40" height="44">Who we are</a>
+<a href="mapswitcher.shtml" class="nav"><img src="greenpiece.gif" class="nav" width="46" height="32" >Map</a>
+<a href="knexholsintro.shtml" class="nav"><img src="dgreypiece.gif" class="nav" width="40" height="44">K'nexman<br>holiday's</a>
+<a href="opening.shtml" class="nav" ><img src="yellowpiece.gif" class="nav" width="46" height="32">Opening Times</a>
+<a href="eric.shtml" class="nav" ><img src="redpiece.gif" class="nav" width="40" height="31">About us</a>
+</p>
+</div>
+
+</div>
+</body>
+</html>

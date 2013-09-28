@@ -1,0 +1,60 @@
+BODY
+{
+	font-size:medium;
+	font-family:"Shelldon","Comic Sans MS", sans-serif;
+	text-align:center;
+	margin-left:50;
+	background-image: url ("border.gif");
+	background-color: #80FFFF;
+}
+
+H1
+{
+	text-align:center;
+	font-size:xx-large;
+	text-decoration:underline;
+}
+H2
+{
+	text-align:center;
+	font-size:xx-small;
+}
+ 
+A.nav
+{
+	height:60;
+	text-decoration: blink;
+	font-family:"Shelldon","Comic Sans MS",sans-serif;
+	color:#800000;
+	font-weight:bold;
+	font-size:medium;
+	text-align:right;
+}
+
+
+IMG.nav
+{
+	border: 0;
+	margin:4px;
+	vertical-align:middle;
+	float: right;
+}	
+
+select
+{
+	font-family:"Shelldon","Comic Sans MS",sans-serif;
+	background-color: #80FFFF;
+}
+
+button
+{
+	font-family:"Shelldon","Comic Sans MS",sans-serif;
+	text-decoration: blink;
+}
+
+#left { float:left;  width: 80%; padding=20;} 
+#menu { float:right; text-align:left; width: "20%"; background-image:none;}
+#footer { clear: both;  }
+
+-->
+</style>

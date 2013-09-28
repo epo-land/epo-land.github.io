@@ -1,0 +1,40 @@
+<html>
+
+<head>
+<title>Quantum</title>
+<link rel=stylesheet href="epostyle.css" type="text/css">
+</head>
+
+<body bgcolor="#FFFFFF">
+<div >
+<div id="left" align="left">
+
+
+<H1>Quantum:  Height restrictions</H1>
+
+<p align="center"><strong>Min Height:</strong></p>
+
+<p align="center"><strong>Min accompanied Height:</strong></p>
+
+<p align="center"><strong><select name="D1" size="1"
+onchange="location.href=value">
+    <option value="Quantum.shtml">General Details</option>
+    <option selected value="Quanheight.shtml">Height restrictions</option>
+</select></strong></p>
+
+<p align="center"><button name="B1" onclick="location.href='mapswitcher.shtml';">Back to Map</button></p>
+</div>
+
+<div id="menu">
+<br><br><br><p align=right>
+<a href="index.shtml" class="nav"><img valign=center src="greypiece.gif" class="nav" width="40" height="44">Who we are</a>
+<a href="mapswitcher.shtml" class="nav"><img src="greenpiece.gif" class="nav" width="46" height="32" >Map</a>
+<a href="knexholsintro.shtml" class="nav"><img src="dgreypiece.gif" class="nav" width="40" height="44">K'nexman<br>holiday's</a>
+<a href="opening.shtml" class="nav" ><img src="yellowpiece.gif" class="nav" width="46" height="32">Opening Times</a>
+<a href="eric.shtml" class="nav" ><img src="redpiece.gif" class="nav" width="40" height="31">About us</a>
+</p>
+</div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<html>
+
+<head>
+<title>Looper</title>
+<link rel=stylesheet href="epostyle.css" type="text/css">
+</head>
+
+<body background="border.gif">
+<div >
+<div id="left" align="left">
+
+
+<h1>Looper</h1>
+<br><p align="center">Looper is the star attraction of E.P.O
+Land, and by far the most thrilling, as it has a steep drop, a
+spiral, and a loop. It was the first ride built at E.P.O Land,and
+it is now the oldest ride there.<br>
+<img src="smloop.gif"
+alt="picture of loop" width="186" height="181"></p>
+<p><h2>picture of Looper<h2></p>
+<select name="D1" size="1"
+onchange="location.href=value">
+    <option selected value="looper.shtml">General Details</option>
+    <option value="loopheight.shtml">Height restrictions</option>
+</select>
+
+<p align="center"><button name="B1" onclick="location.href='mapswitcher.shtml';">Back to Map</button></p>
+</div>
+
+<div id="menu">
+<br><br><br><p align=right>
+<a href="index.shtml" class="nav"><img valign=center src="greypiece.gif" class="nav" width="40" height="44">Who we are</a>
+<a href="mapswitcher.shtml" class="nav"><img src="greenpiece.gif" class="nav" width="46" height="32" >Map</a>
+<a href="knexholsintro.shtml" class="nav"><img src="dgreypiece.gif" class="nav" width="40" height="44">K'nexman<br>holiday's</a>
+<a href="opening.shtml" class="nav" ><img src="yellowpiece.gif" class="nav" width="46" height="32">Opening Times</a>
+<a href="eric.shtml" class="nav" ><img src="redpiece.gif" class="nav" width="40" height="31">About us</a>
+</p>
+</div>
+
+</body>
+</html>

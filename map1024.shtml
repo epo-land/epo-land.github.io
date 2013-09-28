@@ -1,0 +1,40 @@
+<html>
+
+<head>
+<title>Map of E.P.O Land</title>
+<link rel=stylesheet href="epostyle.css" type="text/css">
+</head>
+
+<body background="border.gif">
+<div>
+<div id="menu">
+<br><br><br><p align=right>
+<a href="index.shtml" class="nav"><img valign=center src="greypiece.gif" class="nav" width="40" height="44">Who we are</a>
+<a href="mapswitcher.shtml" class="nav"><img src="greenpiece.gif" class="nav" width="46" height="32" >Map</a>
+<a href="knexholsintro.shtml" class="nav"><img src="dgreypiece.gif" class="nav" width="40" height="44">K'nexman<br>holiday's</a>
+<a href="opening.shtml" class="nav" ><img src="yellowpiece.gif" class="nav" width="46" height="32">Opening Times</a>
+<a href="eric.shtml" class="nav" ><img src="redpiece.gif" class="nav" width="40" height="31">About us</a>
+</p>
+</div>
+
+<div id="left">
+<p align="center"><map name="parkmap">
+<area shape = "rect" coords = "487,385,544,435" href = "lostcity.shtml" alt="Lost City Snacks">
+<area shape = "rect" coords = "431,414,574,496" href = "kayak.shtml" alt="Kayak Rental">
+<area shape ="circle" coords = "361, 353,  35, 35" href = "star.shtml" alt="Star Spinner">
+<area shape = "rect" coords = "651,348,725,425" href = "watersid.shtml" alt="Waterside Whirler">
+<area shape = "rect" coords = "196,70,319,163" href = "mini.shtml" alt="Mini Day &amp; Night Swingboats">
+<area shape = "rect" coords = "51,227,574,422" href = "looper.shtml" alt="Looper">
+<area shape = "rect" coords = "597,450,674,503" href = "quantum.shtml" alt="Quantum">
+<area shape = "rect" coords = "70,46,131,106" href = "midnight.shtml" alt="Midnight Carousel">
+</map>
+<img border=0 src="map.jpg" usemap="#parkmap">
+</p>
+
+<h2>Click on rides to view descriptions.</h2>
+<p align="center"><button name="B1" onclick="location.href='index.shtml';">Back</button></p>
+</div>
+</div>
+
+</body>
+</html>

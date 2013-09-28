@@ -1,0 +1,30 @@
+<html>
+
+<head>
+<title>K'nexman holiday's!</title>
+<link rel=stylesheet href="epostyle.css" type="text/css">
+</head>
+
+<body background="border.gif">
+
+<h1>Pictures of your K'nexmen</h1>
+<hr>
+<!--entry 1-->
+Name:_______<br><img src="looper1.gif">
+<img src="spinner1.gif">
+<img src="mid1.gif">
+<img src="quantum1.gif">
+<hr>
+<!--entry 2-->
+Name:_______<br><img src="looper2.gif">
+<img src="spinner2.gif">
+<img src="mid2.gif">
+<img src="quantum2.gif">
+<hr>
+<!--entry 3-->
+Name:_______<br><img src="looper3.gif">
+<img src="spinner3.gif">
+<img src="mid3.gif">
+<img src="quantum3.gif">
+</body>
+</html>
